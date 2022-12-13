@@ -1,4 +1,7 @@
-# compiled output
+# Databases
+*.db
+
+# Compiled output
 /dist
 /node_modules
 
