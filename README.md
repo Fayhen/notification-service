@@ -24,12 +24,20 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a learning repository created to understand the [Nest](https://github.com/nestjs/nest), as part of [RocketSeat](https://www.rocketseat.com.br/)'s last 2022 IgniteLab bootcamp. It consists of a notifications microservice application written in TypeScript. An SQLite database is handled through [Prisma](https://www.prisma.io/) and tests are implemented with [Jest](https://jestjs.io/).
 
 ## Installation
 
 ```bash
 $ npm install
+```
+
+## Database setup 
+
+Perform existing migrations on initial application setup:
+
+```bash
+npx prisma migrate deploy
 ```
 
 ## Running the app
